@@ -1,18 +1,55 @@
-@import url("css/header.css");
-@import url("css/banner.css");
-@import url("css/carrossel.css");
-
-:root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: "Poppins";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
 }
+
+header{
+    header:200px;
+    padding:20px 0;
+
+}
+
+.pulicia{
+    width:50%;
+
+}
+
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+
+}
+
+.menu a{
+     color:Black;
+     text-decoration: none;
+     font-weight: bold;
+     margin-right: 15px;
+
+}
+
+section.sobre{
+    height: calc(100% - 200px)
+    position: relative;
+
+}
+
+.estras{
+     position: absolute;
+     bottom:0;
+     right:0;
+     width:200px;
+     height:200px;
+}
+
